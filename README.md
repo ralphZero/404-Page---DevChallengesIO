@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">404 Page - DevChallengesIO</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -41,8 +41,8 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-[DEMO](https://vigilant-meitner-cbb1c9.netlify.app/)
-It was very refrshing working on this without any framework, just pure HTML5 and CSS3. It allowed me going back to concepts that I learned a long time ago that I forgot.
+[This project](https://vigilant-meitner-cbb1c9.netlify.app/)
+was very refrshing working on this without any framework, just pure HTML5 and CSS3. It allowed me going back to concepts that I learned a long time ago that I forgot.
 
 ### Built With
 
