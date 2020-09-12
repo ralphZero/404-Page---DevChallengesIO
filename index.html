@@ -1,95 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5" />
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <title>Devchallenges</title>
+</head>
+<style>
+  @media screen and (max-width: 600px) {
+    .side {
+      height: auto;
+      width: 100%;
+    }
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+    .side img {
+      max-width: 50%;
+      height: auto;
+      margin-left: 20vw;
+    }
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    .side h1 {
+      font-family: 'Space Mono', monospace;
+      font-weight: bold;
+      font-size: 6.5vw;
+    }
 
-    <title>Devchallenges</title>
+    .side h3 {
+      font-family: 'Space Mono', monospace;
+      font-weight: lighter;
+      font-size: 3.5vw;
+    }
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
 
-      ul {
-        padding-left: 24px;
-      }
+    .row {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+  }
 
-      li {
-        margin-bottom: 8px;
-      }
+  @media screen and (min-width: 601px) {
+    .side {
+      height: auto;
+      max-width: 35%;
+    }
 
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
+    .side-img{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
 
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
+    .side img {
+      max-width: 100%;
+      height: auto;
+      align-self: center;
+    }
 
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
+    .side h1 {
+      font-family: 'Space Mono', monospace;
+      font-weight: bold;
+      font-size: 2.8rem;
+    }
 
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
+    .side h3 {
+      font-family: 'Space Mono', monospace;
+      font-weight: lighter;
+    }
 
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+  }
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+  nav h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
-  </body>
+  nav {
+    margin-bottom: 5%;
+  }
+
+  body {
+    padding: 1vh 5% 0px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button {
+    text-transform: uppercase;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 14px;
+    border: none;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+  }
+
+  footer {
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+  }
+</style>
+<nav>
+  <h2>404 not found</h2>
+</nav>
+<div class="row">
+  <div class="side side-img">
+    <img src="Scarecrow.png" alt="Scarecrow">
+  </div>
+  <div class="side">
+    <h1>I have bad news for you</h1>
+    <h3 style="color: #4F4F4F;">The page you are looking for might be removed or is temporarily unavailable</h3>
+    <button>back to homepage</button>
+  </div>
+</div>
+<footer>
+  Ralph Sebastien Placide @ DevChallenges.io
+</footer>
+
+<body>
+
+</body>
+
 </html>
