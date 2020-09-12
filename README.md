@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://vigilant-meitner-cbb1c9.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/ralphZero/404-Page---DevChallengesIO">
       Solution
     </a>
     <span> | </span>
@@ -41,7 +41,7 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
+[DEMO](https://vigilant-meitner-cbb1c9.netlify.app/)
 It was very refrshing working on this without any framework, just pure HTML5 and CSS3. It allowed me going back to concepts that I learned a long time ago that I forgot.
 
 ### Built With
