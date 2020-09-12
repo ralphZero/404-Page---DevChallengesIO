@@ -36,14 +36,13 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot pc](https://imgur.com/eB0Cuie.png)
+![screenshot phone](https://imgur.com/rdjBQvH.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+It was very refrshing working on this without any framework, just pure HTML5 and CSS3. It allowed me going back to concepts that I learned a long time ago that I forgot.
 
 ### Built With
 
